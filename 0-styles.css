@@ -7,7 +7,7 @@ html {
 
 ul {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	list-style: none;
 }
 
@@ -21,6 +21,10 @@ li {
 	border: 2px solid #8D8D8D;
 	border-radius: 0.5rem;
 	background-color: #F7F7F7;
+}
+
+ul li + li {
+    margin-left: 3.5rem;
 }
 
 span {
